@@ -11,7 +11,9 @@ const App: React.FunctionComponent = () => {
       align="center"
       backgroundColor="blue.800"
     >
-      <Heading color="white">Let's get building...</Heading>
+      <Heading color="white" fontWeight="light">
+        Let's get building...
+      </Heading>
     </Flex>
   );
 };
