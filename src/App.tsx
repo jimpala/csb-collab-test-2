@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Heading } from "@chakra-ui/react";
+import { Flex, Heading, Box } from "@chakra-ui/react";
 
 const App: React.FunctionComponent = () => {
   return (
@@ -11,9 +11,11 @@ const App: React.FunctionComponent = () => {
       align="center"
       backgroundColor="blue.800"
     >
-      <Heading color="white" fontWeight="light">
-        Let's get building...
-      </Heading>
+      <Box backgroundColor="black" borderRadius="lg" p="6">
+        <Heading color="white" fontWeight="light">
+          Let's get building...
+        </Heading>
+      </Box>
     </Flex>
   );
 };
